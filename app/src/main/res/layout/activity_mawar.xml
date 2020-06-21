@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mawar"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/img_mawar"
+            android:layout_width="match_parent"
+            android:layout_height="364dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mawar" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pengertian dan Arti Bunga Mawar dan Cara Penanamanya"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Bunga Mawar merupakantanaman semak dari genus Rosa sekaligus nama bunga yang dihasilkan tanaman ini. Mawar liar yang terdiri lebih dari 100 spesies kebanyakan tumbuh di belahan bumi utara yang berudara sejuk. Spesies mawar umumnya merupakan tanaman semak yang berduri atau tanaman memanjat  yang tingginya bisa mencapai 2 sampai 5 meter. Walaupun jarang ditemui, tinggi tanaman mawar yang merambat di tanaman lain bisa mencapai 20 meter."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Secara umum, bunga mawar dikelompokkan berdasarkan perawakan dan sifat pertumbuhannya menjadi 4 kelompok besar. Yakni: bunga mawar semak yang banyak ditanam sebagai pagar, Bunga mawar kerdil berupa tanaman dalam pot, Bunga mawar pohon dan terakhir Bunga mawar liana yang tumbuh merambat."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga mawar dikenal mempunyai banyak varietas sehingga disebutlah dia Rosaceae atau keluarga mawar mawaran. Kemajuan teknologi semakin membuat keluarga tanaman ini beraneka ragam dengan warna warninya mulai dari merah, ungu, hitam dan bahkan campuran beberapa warna. Disamping itu kelopak bunganya juga semakin variatif, dari yang berkuntum tunggal, ganda sampai yang bertumpuk."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga mawar dengan nama ilmiah Rosaceae merupakan tanaman dari Ordo Rosanales sangatlah pantas menyandang julukan si “Ratu Bunga” karena hampir semua orang menyukai dan mengenal mawar. Warna bunganya  yang cantik menawan dengan aneka ragam warna warni seakan menghidupkan suasana taman menjadi semarak, ditambah lagi pesona harumnya yang semerbak wangi."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simbol Kasih Sayang"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beberapa arti yang dimilki oleh setangkai bunga mawar adalah:"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunga Mawar Merah: cinta, keberanian, penghargaan"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunga Mawar Kuning: kegembiraan, kebahagiaan, kebebasan"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunga Mawar Pink/peach: terima kasih, syukur, kekaguman, penghargaan dan simpati."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunga Mawar  Putih: penghormatan, kesucian hati, kerahasiaan, pertunangan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunga Mawar Merah dan Putih: kebersamaan"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga Mawar Hitam: dukacita"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khasiat bunga Mawar."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dibalik keelokan warna bunga mawar, ternyata juga terkandung khasiat sebagai obat alami. Bilamana anda sempat pergi jalan jalan ke Bangkok, akan anda jumpai makanan yang terbuat dari bunga mawar. Banyak restoran di bangkok yang menyuguhkan menu andalan dari bahan bunga ini. Bunga ini aman dikonsumsi dan memiliki beberapa khasiat. Minyak atsiri nya mengandung geraniol dan limonene yang berfungsi sebagai antiseptik, pembunuh jamur candida albican penyebab keputihan dan menambah daya tahan tubuh. Harum aroma bunga mawar juga sering digunakan sebagai aromaterapi yang bersifat menenangkan juga meningkatkan mood. Daun kelopak bunganya yang kering juga dapat untuk mengharumkan teh. Caranya sangat mudah, anda campurkan sedikit kelopak bunga kering bersama teh dan rebuskan air kemudian saring, anda akan menikmati segarnya teh sambil menghirup aroma bunga mawar yang dapat meningkatkan mood."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

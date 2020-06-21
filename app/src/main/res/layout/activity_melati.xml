@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/melati"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/img_amelati"
+            android:layout_width="match_parent"
+            android:layout_height="364dp"
+            android:layout_gravity="center"
+            android:src="@drawable/melati" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arti  Bunga Melati"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Melati merupakan sekumpulan tanaman perdu yang dikelompokkan dalam gebus Jasminum. Bunga berbau harum yang menjadi lambang kesucian dan kemurnian ini terdiri atas lebih dari 200-an jenis yang tersebar di seluruh dunia. Beberapa jenis diantaranya telah dibudidayakan manusia."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga Melati lambang kesucian nan sederhana apalagi dengan warna putih dan bau harumnya. Karenanya bunga Melati sering dikaitkan dengan berbagai tradisi di berbagai daerah di Indonesia. Bahkan salah satu spesiesnya yakni Melati Putih ditetapkan sebagai puspa bangsa, satu dari tiga bunga nasional Indonesia."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Di Indonesia, bunga Melati dikenal luas dengan berbagai nama daerah seperti Meulu cut atau Meulu China (Aceh), Menyuru (Banda), Menuh (Bali), Mundu (Bima dan Sumbawa), Melur atau Melor (Gayo dan Batak Karo), Menur, Mlati, atau Melati (Jawa dan Sunda), Malete (Madura), dan Manyora (Timor). Di Inggris bunga ini dikenal sebagai Jasmine, sesuai dengan nama genus bunga ini, Jasminum."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ciri-ciri dan Jenis Melati"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Melati merupakan tanaman perdu, berbatang tegak merayap, dan hidup menahun. Daunnya hijau, berbentuk membulat. Bunganya berukuran kecil, umumnya berwarna putih, berbau harum dengan mahkota bunga selapis atau menumpuk."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanaman dengan aroma wangi dan menjadi lambang kesucian ini berasal dari Asia Selatan dan tersebar hampir di seluruh dunia termasuk di Indonesia. Tiap spesies memiliki habitat yang berbeda, namun secara umum melati menyukai habitat beriklim tropis pada daerah dataran rendah hingga ketinggian 1.600 meter dpl."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meski hanya sedikit (sekitar 9 jenis saja) yang biasa dibudidayakan, bunga melati memiliki banyak spesies. Jumlah jenisnya mencapai 200-an spesies yang sebagian besar masih tumbuh meliar di hutan-hutan. Beberapa spesies yang populer di Indonesia diantaranya adalah:"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Melati Putih, Melati Air (Jasminum sambac)"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Melati Gambir (Jasminum pubescens)"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Melati Gambir, Melati Hutan, Star Jasmine (Jasminum multiflora)"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Melati Raja, King Jasmine (Jasminum rex)"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manfaat, Makna dan Filosofi Melati."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga melati mempunya berbagai manfaat mulai sebagai bunga tabur, bahan pembuatan minyak wangi, kosmetika, farmasi, karangan bunga, campuran teh hingga menjadi tanaman obat."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selain itu bunga melati juga sering menjadi alat pelengkap berbagai tradisi yang terdapat di berbagai daerah di Indonesia seperti dalam upacara perkawinan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eratnya berbagai tradisi di nusantara yang berkaitan dengan bunga melati tidak terlepas dari makna filosofis bunga melati yang melambangkan kesederhanaan. Ini terlihat dari sosok tanaman melati yang sederhana, tumbuh meliar dan mempunyai bunga yang kecil seakan melambangkan kesederhaan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Warnanya yang putih bersih serta tidak mencolok, bunga ini melambangkan kesucian dan keelokan budi. Bunga Melati mengeluarkan aroma harum yang lembut dan tidak menusuk hidung memberikan makna dan kesan lembut, nyaman, dan tenang. Di samping itu, tumbuhan ini dapat tumbuh dengan mudah tanpa membutuhkan perawatan yang rumit dan berbunga sepanjang tahun."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karena itu pula tidak mengherankan jika kemudian salah satu jenis bunga melati yaitu Melati Putih (Jasminum sambac) ditetapakan sebagai puspa bangsa, satu dari tiga bunga nasional Indonesia, berdasarkan Kepres Nomor 4 Tahun 1993."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dan saya adalah orang yang selalu terpikat dengan kesederhanaan bunga melati yang sekaligus menebarkan kesucian yang harum. "
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

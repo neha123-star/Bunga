@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bunga-bunga</string>
+    <string name="melati">Melati</string>
+    <string name="detail_melati1">Melati adalah salah satu dari macam macam bunga hias yang terdiri dari sekitar 200 spesies tumbuhan asli daerah beriklim tropis dan hangat dari Eurasia, Australasia dan Oseania.</string>
+    <string name="petunia">Petunia</string>
+    <string name="detail_petanui1">Petunia berasal dari Amerika Selatan dengan ciri fisik yakni kisaran tinggi 16–30 cm, bunga bermahkota tunggal dan ada pula yang bermahkota ganda.</string>
+    <string name="kembang_sepatu">Kembang Sepatu</string>
+    <string name="detail_kembangsepatu1">Kembang sepatu adalah salah satu dari macam macam bunga yang berasal dari Asia Timur.</string>
+    <string name="bugenvil">Bugenvil</string>
+    <string name="detail_bugenvil1">Bugenvil adalah satu dari macam macam bunga hias populer dengan bentuk serupa pohon kecil yang sukar tumbuh tegak.</string>
+    <string name="pentas">Pentas</string>
+    <string name="detail_pentas1">Bunga pentas adalah salah satu dari macam macam bunga yang ditemukan di Afrika Selatan, Komoro, Madagaskar, dan Semenanjung Arab.</string>
+    <string name="anggrek">Anggrek</string>
+    <string name="detail_anggrek1">Anggrek merupakan satu suku tumbuhan berbunga dengan anggota jenis terbanyak.</string>
+    <string name="teratai">Teratai</string>
+    <string name="detail_teratai1">Teratai tumbuh di permukaan air tenang, dengan bunga dan daun di permukaan air yang keluar dari tangkai.</string>
+    <string name="tulip">Tulip</string>
+    <string name="detail_tulip1">Tulip populer karena bentuknya yang unik dengan beragam warna</string>
+    <string name="iris">Iris</string>
+    <string name="detail_iris1">Iris identik dengan warna ungu, mulai dari gelap hingga cerah.</string>
+    <string name="mawar">Mawar</string>
+    <string name="detail_mawar1">Mawar layak didaulat sebagai bunga yang paling indah dan tak lekang oleh waktu.</string>
+</resources>

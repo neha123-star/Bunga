@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tulip"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/img_tulip"
+            android:layout_width="match_parent"
+            android:layout_height="336dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tulip" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arti Bunga Tulip"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga Tulip merupakan bunga yang berasal dari Belanda. Bentuk kelopak bunganya yang khas menjadi daya tarik tersendiri bagi para pecinta bunga. Banyak orang yang mengagumi kecantikannya, baik itu wanita, pria, tua, muda hampir semuanya menyukai bunga tulip. Bunga tulip jika ditanam akan memiliki tinggi antara 10-70 cm serta memiliki daun yang berlilin dan terlihat lebih mengkilap."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kelopak bunganya terdiri dari 6 buah daun mahkota yang terdiri dari berbagai warna seperti oranye, putih, merah, biru, kuning, dan lain sebagainya. Warna-warnanya yang cerah juga menjadi faktor tersendiri mengapa banyak orang menyukainya. Bunga tulip sangat syarat akan makna dan filosofi sehingga tepat untuk dipergunakan di moment-moment penting yang terjadi di dalam hidup."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga tulip menyimpan kecantikan dan keindahan yang sempurna. Pantas saja jika banyak wisatawan ingin melihat bunga tulip yang cantik dan segar langsung dari negeri penghasilnya yaitu Belanda. Cuaca di Belanda yang beriklim subtropis menjadi ladang subur untuk berkembangnya bunga tulip. Jadi jangan heran apabila bunga tulip tidak dapat bertahan lama di Indonesia yang memiliki iklim tropis. Meski begitu, banyak toko bunga Online yang selalu menyediakan bunga tulip karena bunga ini sangat dicari untuk ungkapan cinta dan kasih sayang."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga tulip sendiri merupakan simbol cinta yang sempurna. Banyak orang yang membicarakan kecantikan bunga tulip namun mereka tak ada habisnya untuk menceritakan kecantikan dari bunga tulip. Dari setiap warna bunga tulip memiliki makna yang berbeda-beda, selengkapnya tentang arti warna bunga tulip, silahkan simak berikut ini :"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makna Warna Bunga Tulip "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tulip Putih"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga tulip putih melambangkan sebuah kesucian, kepolosan, dan kerendahan hati. Oleh karena itu, bunga tulip putih cocok digunakan sebagai ucapan maaf, untuk menunjukkan rasa simpati atas meninggalnya seseorang, dan dapat pula digunakan di acara pernikahan karena melambangkan kesucian."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tulip Merah"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga tulip merah melambangkan sebuah cinta yang sangat dalam. Dan sangat cocok untuk mengungkapkan isi hati pada seseorang yang dicintai. Bisa dikatakan bahwa bunga tulip merah ini merupakan simbol kasih yang sempurna untuk seseorang kepada pasangannya."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tulip Oranye"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga tulip oranye melambangkan sebuah kebahagiaan dan kehangatan. Warna oranye pada bunga tulip juga melambangkan sebuah optimisme akan hadirnya sebuah keberuntungan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tulip Kuning"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga tulip kuning melambangkan sebuah persahabatan dan keceriaan. Namun disisi lain bunga tulip kuning juga dapat melambangkan sebuah penolakan cinta yang menyedihkan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

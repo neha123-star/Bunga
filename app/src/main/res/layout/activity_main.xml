@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/melati" />
+                <TextView
+                    android:id="@+id/tv_nama1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/img1"
+                    android:layout_toRightOf="@id/img1"
+                    android:text="@string/melati"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_detail1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@id/tv_nama1"
+                    android:layout_toEndOf="@id/img1"
+                    android:layout_toRightOf="@id/img1"
+                    android:text="@string/detail_melati1"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="UnknownId" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@id/img1"
+                    android:layout_toRightOf="@id/img1">
+                    <Button
+                        android:id="@+id/btnMelati"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:layout_margin="10dp"
+                        android:background="#2196F3"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/petunia" />
+                <TextView
+                    android:id="@+id/tv_nama2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/img2"
+                    android:layout_toRightOf="@id/img2"
+                    android:text="@string/petunia"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_detail2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@id/tv_nama2"
+                    android:layout_toEndOf="@id/img2"
+                    android:layout_toRightOf="@id/img2"
+                    android:text="@string/detail_petanui1"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@id/img2"
+                    android:layout_toRightOf="@id/img2">
+                    <Button
+                        android:id="@+id/btnPetunia"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:layout_margin="10dp"
+                        android:background="#2196F3"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/kembang_sepatu" />
+                <TextView
+                    android:id="@+id/tv_nama3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/img3"
+                    android:layout_toRightOf="@id/img3"
+                    android:text="@string/kembang_sepatu"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_detail3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@id/tv_nama3"
+                    android:layout_toEndOf="@id/img3"
+                    android:layout_toRightOf="@id/img3"
+                    android:text="@string/detail_kembangsepatu1"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@id/img3"
+                    android:layout_toRightOf="@id/img3">
+                    <Button
+                        android:id="@+id/btnKembangSepatu"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:layout_margin="10dp"
+                        android:background="#2196F3"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/bugenvil" />
+                <TextView
+                    android:id="@+id/tv_nama4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/img4"
+                    android:layout_toRightOf="@id/img4"
+                    android:text="@string/bugenvil"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_detail4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@id/tv_nama4"
+                    android:layout_toEndOf="@id/img4"
+                    android:layout_toRightOf="@id/img4"
+                    android:text="@string/detail_bugenvil1"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@id/img4"
+                    android:layout_toRightOf="@id/img4">
+                    <Button
+                        android:id="@+id/btnBugenvil"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:layout_margin="10dp"
+                        android:background="#2196F3"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/pentas" />
+                <TextView
+                    android:id="@+id/tv_nama5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/img5"
+                    android:layout_toRightOf="@id/img5"
+                    android:text="@string/pentas"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_detail5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@id/tv_nama5"
+                    android:layout_toEndOf="@id/img5"
+                    android:layout_toRightOf="@id/img5"
+                    android:text="@string/detail_pentas1"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@id/img5"
+                    android:layout_toRightOf="@id/img5">
+                    <Button
+                        android:id="@+id/btnPentas"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:layout_margin="10dp"
+                        android:background="#2196F3"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/anggrek" />
+                <TextView
+                    android:id="@+id/tv_nama6"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/img6"
+                    android:layout_toRightOf="@id/img6"
+                    android:text="@string/anggrek"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_detail6"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@id/tv_nama6"
+                    android:layout_toEndOf="@id/img6"
+                    android:layout_toRightOf="@id/img6"
+                    android:text="@string/detail_anggrek1"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@id/img6"
+                    android:layout_toRightOf="@id/img6">
+                    <Button
+                        android:id="@+id/btnAnggrek"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:layout_margin="10dp"
+                        android:background="#2196F3"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img7"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/teratai" />
+                <TextView
+                    android:id="@+id/tv_nama7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/img7"
+                    android:layout_toRightOf="@id/img7"
+                    android:text="@string/teratai"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_detail7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@id/tv_nama7"
+                    android:layout_toEndOf="@id/img7"
+                    android:layout_toRightOf="@id/img7"
+                    android:text="@string/detail_teratai1"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@id/img7"
+                    android:layout_toRightOf="@id/img7">
+                    <Button
+                        android:id="@+id/btnTeratai"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:layout_margin="10dp"
+                        android:background="#2196F3"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img8"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/tulip" />
+                <TextView
+                    android:id="@+id/tv_nama8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/img8"
+                    android:layout_toRightOf="@id/img8"
+                    android:text="@string/tulip"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_detail8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@id/tv_nama8"
+                    android:layout_toEndOf="@id/img8"
+                    android:layout_toRightOf="@id/img8"
+                    android:text="@string/detail_tulip1"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@id/img8"
+                    android:layout_toRightOf="@id/img8">
+                    <Button
+                        android:id="@+id/btnTulip"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:layout_margin="10dp"
+                        android:background="#2196F3"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img9"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/iris" />
+                <TextView
+                    android:id="@+id/tv_nama9"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/img9"
+                    android:layout_toRightOf="@id/img9"
+                    android:text="@string/iris"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_detail9"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@id/tv_nama9"
+                    android:layout_toEndOf="@id/img9"
+                    android:layout_toRightOf="@id/img9"
+                    android:text="@string/detail_iris1"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@id/img9"
+                    android:layout_toRightOf="@id/img9">
+                    <Button
+                        android:id="@+id/btnIris"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:layout_margin="10dp"
+                        android:background="#2196F3"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img10"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/mawar" />
+                <TextView
+                    android:id="@+id/tv_nama10"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/img10"
+                    android:layout_toRightOf="@id/img10"
+                    android:text="@string/mawar"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_detail10"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@id/tv_nama10"
+                    android:layout_toEndOf="@id/img10"
+                    android:layout_toRightOf="@id/img10"
+                    android:text="@string/detail_mawar1"
+                    android:layout_marginTop="5dp"
+                    tools:ignore="UnknownId" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@id/img10"
+                    android:layout_toRightOf="@id/img10">
+                    <Button
+                        android:id="@+id/btnMawar"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Detail"
+                        android:layout_margin="10dp"
+                        android:background="#2196F3"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""/>
+    </LinearLayout>
+
+
+
+</ScrollView>

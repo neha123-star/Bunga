@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bugenvil"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/img_bugenvil"
+            android:layout_width="match_parent"
+            android:layout_height="336dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bugenvil" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bugenvil adalah satu dari macam macam bunga hias populer dengan bentuk serupa pohon kecil yang sukar tumbuh tegak."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Melihat dari rupa tumbuhannya yang berwarna-warni, bugenvil seolah menjadi tanaman hias yang sangat populer karena kecantikkan warna dan cara merawatnya yang mudah."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berasal dari Amerika Selatan, bugenvil sering ditanam di taman dan kawasan perumahan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanaman yang satu ini kerap disebut bunga kertas karena bentuk seludang bunganya yang tipis dan mempunyai ciri-ciri seperti kertas."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tak hanya menjadi tanaman hias, tapi bugenvil juga memiliki fungsi lain seperti:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Hiasan rambut, campuran bunga untuk upacara siraman, serta upacara pemakaman bagi bangsa China dan India."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Warna bugenvil begitu variatif mulai dari jingga, merah menyala, merah jambu, merah pucat, kuning, ungu, putih, dan berbagai campuran warna."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

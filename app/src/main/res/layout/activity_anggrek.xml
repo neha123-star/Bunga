@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/anggrek"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_anggrek"
+            android:src="@drawable/anggrek"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arti Etimologis dari Bunga Anggrek"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anggrek (keluarga Orchidaceae) mendapatkan nama mereka dari kata Yunani orchis, yang berarti testis. Umbi-umbi bawah tanah mereka yang berdaging dianggap menyerupai buah zakar, setidaknya itulah yang dipikirkan ahli botani Yunani Theophrastos pada saat itu."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anggrek phalaenopsis, yang biasa disebut anggrek ngengat, mendapatkan nama mereka dari identitas yang salah. Ketika Naturalis Swedia Peter Osbeck memata-matai mereka di kacamata lapangan saat mengunjungi Jawa pada pertengahan 1750-an, dia mengira mereka adalah sekelompok ngengat. Meskipun mereka tidak dinamai secara resmi selama 75 tahun, nama umum Osbeck memata-matai mereka di kacamata lapangan saat mengunjungi Jawa pada pertengahan 1750-an, dia pikir mereka adalah sekelompok ngengat. Meskipun mereka tidak dinamai secara resmi selama 75 tahun, anggrek ngengat nama umum telah bertahan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fakta Bunga Anggrek"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanaman anggrek dan bunga beragam ukuran dan bentuknya. Banyak tumbuh di bawah hutan tropis, menghasilkan bunga yang lembut dalam berbagai warna. Sementara beberapa adalah tanaman kecil, hanya beberapa inci tinggi, yang lain seperti anggrek Vanilla tumbuh di atas tanaman merambat menjulang. Anggrek Vanila adalah tanaman asli Mesoamerika di mana Indian Totonaco membudidayakannya. Menurut legenda kuno Totonaco, anggrek vanilla bermula dari darah Putri Xanat ketika dia dan kekasihnya dipenggal kepalanya karena tidak mematuhi keinginan ayahnya."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meskipun orang Cina telah menanam anggrek selama lebih dari 3.000 tahun, baru pada tahun 1600-an pengunjung ke Timur Jauh membawa anggrek ke Eropa. Pada tahun 1802 anggrek dibangkitkan dari biji dan pada tahun 1856, hibrida budidaya pertama dikembangkan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Warna Bunga Anggrek"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sementara semua anggrek melambangkan cinta dan keindahan, warna anggrek dapat mengubah makna bunga yang dimaksud."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biru - Anggrek datang dalam setiap warna tetapi biru, tetapi ada anggrek berwarna biru. Anggrek-anggrek ini mewakili kelangkaan"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merah - Anggrek merah melambangkan hasrat dan keinginan, tetapi juga dapat melambangkan kekuatan dan keberanian."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pink - Anggrek merah muda melambangkan rahmat, sukacita dan kebahagiaan dan juga bisa melambangkan kepolosan dan feminitas."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Putih - Anggrek putih merepresentasikan penghormatan dan kerendahan hati, kepolosan dan kemurnian, serta keanggunan dan keindahan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ungu - Ungu anggrek melambangkan kekaguman, rasa hormat, martabat dan royalti."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuning - Kuning atau anggrek mewakili persahabatan, kebahagiaan, dan awal yang baru."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oranye - Oranye anggrek melambangkan antusiasme, keberanian, dan kebanggaan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hijau - Anggrek hijau dianggap membawa keberuntungan dan berkah. Mereka mewakili kesehatan yang baik, alam dan umur panjang."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karakteristik Botani Berarti dari Bunga Anggrek"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dalam pengobatan Cina, anggrek digunakan sebagai obat herbal untuk meredakan batuk dan penyakit paru-paru; mengobati kekurangan ginjal, paru-paru dan perut; dan mengobati penyakit mata."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aroma bunga anggrek digunakan dalam parfum dan produk kecantikan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kacang dari anggrek Vanilla dikeringkan dan digunakan sebagai penyedap untuk minuman manis dan permen. Ini adalah bumbu yang populer untuk es krim, minuman ringan, dan kue."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pesan Anggrek Bunga Adalah ..."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pesan bunga anggrek sulit ditolak. Bunga eksotis ini membawa keindahan dan keanggunan pada setiap kesempatan dengan bunga yang tampak melayang di udara. Mereka menambahkan bakat untuk karangan bunga yang tidak biasa, atau hanya digunakan sebagai tanaman pot sebagai centerpieces selama acara-acara khusus. Dan, seolah itu tidak cukup, anggrek memberi dunia rasa manis vanili juga."
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

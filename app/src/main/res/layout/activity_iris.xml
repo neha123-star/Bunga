@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iris"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/img_iris"
+            android:layout_width="match_parent"
+            android:layout_height="273dp"
+            android:layout_gravity="center"
+            android:src="@drawable/iris" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arti Bunga Iris"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga iris merupakan salah satu tanaman hias yang favorit ditanam di pekarangan rumah, penghias jalan dan dekorasi taman. Bunga iris memang sangat indah untuk dinikmati, apalagi dengan keanekaragaman warna yang dimiliki. Secara historis, tanaman iris merupakan suatu representasi dari mitologi Yunani. Iris dianggap cerminan Dewi Pelangi dan sebagai pengantar pesan untuk Zeus dan Hera, banyak orang percaya bahwa bunga ini diberi nama berdasarkan mitologi Yunani tersebut. Iris dapat ditemukan di Eropa, Afrika Utara, Asia, dan Amerika Utara."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uniknya dari setiap keindahan yang dimiliki oleh bunga ini, ternyata tersimpan ribuan makna dan cerita sejarah yang mempunyai nilai historis yang tinggi. Seperti contohnya, pada tahun 16 SM, iris diperkenalkan ke Mesir dari Syria dan mulai menjadi dekorasi di tongkat kerajaan Firaun sebagai simbol kemenangan dan kekuasaan. Selain itu iris menginspirasi fleur-de-lis, sebuah symbol dekorasi yang dipakai oleh kerajaan Prancis dan mulai digunakan pada abad pertengahan. Sampai saat ini, fleur-de-lis menjadi simbol dari Prancis Monarki dan selalu muncul pada coat, koin, dan shields. Beberapa orang percaya bahwa 3 petal melambangkan 3 tingkat sosial yaitu bangsawan, pendeta, dan petani."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Setiap warna dari varian iris juga memiliki makna yang mendalam. Hubungan antara bunga Iris dengan Dewi Iris ini sangat erat karena bunga iris memiliki lebih dari 200 spesies dan memiliki berbagai macam warna, sesuai dengan sebutan Dewi Iris yaitu The Goddess of Rainbow. Iris berwarna ungu sebagai simbol keluarga raja dan kebijaksanaan, iris berwarna kuning sebagai simbol suatu gairah/keinginan, iris berwarna biru sebagai simbol dari kepercayaan dan harapan, iris berwarna putih sebagai simbol dari kesucian,iris memiliki warna-warna yang berbeda di bagian dalam dari bunganya, mulai dari biru pucat, mauve, pink, bahkan kuning."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ternyata selain makna-makna tersebut, iris juga memiliki nilai kebermanfaatan yang tinggi. Sekitar abad ke 19, di Itali, akar Iris digunakan sebagai bahan dasar parfum tidak hanya itu akar iris juga dapat digunakan di bidang medis yaitu sebagai antiseptik dan anti inflamasi. Seiring berkembangnya zaman, saat ini Iris banyak digunakan sebagai dekorasi taman karena mudah untuk dirawat dan bentuknya yang indah, selain itu karena warnanya yang beragam, Iris juga menjadi pilihan favorit orang ketika member hadiah."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

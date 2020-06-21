@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kembang_sepatu"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/img_kembangsepatu"
+            android:layout_width="match_parent"
+            android:layout_height="273dp"
+            android:layout_gravity="center"
+            android:src="@drawable/kembang_sepatu" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arti dan Makna Bunga Kembang Sepatu (Hibiscus)"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Arti bunga kembang sepatu berbeda-beda tergantung dari budaya tiap-tiap daerah. Kata hibiscus berasal dari bahasa Yunani yakni “hibiskos” yang diberikan oleh Pedanius Dioscorides, salah seorang ahli botani dan penulis di jaman Romawi sekaligus seorang dokter untuk para tentara Romawi."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga kembang sepatu secara tradisional diselipkan di telinga gadis Tahiti dan Hawaii. Jika bunga kembang sepatu dikenakan di belakang telinga kiri artinya wanita tersebut sudah menikah atau sedang menjalin sebuah hubungan. Jika bunga itu dikenakan di sebelah kanan, berarti dia masih lajang atau bersedia secara terbuka untuk sebuah hubungan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Di Amerika Utara khususnya, kembang sepatu umumnya dikenal sebagai “Rose of Sharon” melambangkan pengantin wanita yang sempurna. Di jaman dulu, memberi kembang sepatu memiliki arti bahwa si pemberi mengakui kecantikan si penerima. Di Cina, bunga ini melambangkan ketenaran dan keindahan baik wanita maupun pria. Kembang sepatu digunakan sebagai persembahan kepada dewi Kali dan Lord Ganesha dalam ibadah Hindu."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga kembang sepatu telah lama digunakan selama berabad-abad sebagai afrodisiak. Wanita Mesir dilarang minum teh yang dibuat dengan ramuan ini karena dikatakan bisa menginduksi perasaan bernafsu. Ramuan dari kembang sepatu bahkan digunakan dalam mantra untuk menarik datangnya cinta."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kembang sepatu adalah bunga negara Hawaii, bunga ini biasanya dikalungkan pada pejabat negara atau kunjungan para turis. Spesies kembang sepatu juga mewakili beberapa negara lain seperti Hibiscus syriacus dikenal dengan nama mugunghwa adalah bunga nasional Korea Selatan, dan Hibiscus rosa-sinensis adalah bunga nasional Malaysia."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Di Filipina, gumamela (nama lokal untuk kembang sepatu) digunakan oleh anak-anak sebagai bagian dari hobi pembuatan gelembung."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makna Bunga Kembang Sepatu (Hibiscus) Berdasarkan Warnanya"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga kembang sepatu terdiri dari berbagai warna dan memiliki arti yang berbeda-beda. Berikut makna bunga kembang sepatu berdasarkan warnanya:"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Kembang sepatu putih melambangkan kemurnian, kecantikan dan keanggunan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Kembang sepatu kuning dikaitkan dengan kebahagiaan, cahaya matahari dan keberuntungan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Kembang sepatu pink memiliki arti persahabatan dan ungkapan segala macam perasaan cinta dan kasih sayang."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kembang sepatu ungu dikaitkan dengan misteri dan berkelas."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Kembang sepatu merah adalah simbol cinta dan gairah."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kegunaan bunga kembang sepatu"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga ini tidak hanya digemari karena kecantikannya, tapi juga dimanfaatkan pada makanan dan minuman. Teh yang terbuat dari bunga kembang sepatu ini dikenal dengan berbagai nama di banyak negara di seluruh dunia dan disajikan baik panas maupun dingin. Di India dikenal dengan sebutan orhul, bissap (Afrika), agua de jamaica (Meksiko), karkadé (Mesir dan Arab), sorrel (Jamaika), dan soobolo (Ghana)."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teh yang terbuat dari bunga ini dikeringkan dan digunakan dalam pengobatan tradisional yang dianggap mampu meringankan gejala flu dan mengurangi tekanan darah. Namun, banyak hal yang perlu diperhatikan saat mengonsumsi teh dari bunga ini, wanita hamil dan menyusui dianjurkan tidak mengonsumsinya dan orang yang sedang mengonsumsi obat yang mengandung paracetamol. Spesies Hibiscus cannabinus juga banyak digunakan dalam pembuatan kertas."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

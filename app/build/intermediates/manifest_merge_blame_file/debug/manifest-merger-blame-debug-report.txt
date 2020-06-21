@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.neharosma.bunga_bunga"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->G:\Bungabunga\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->G:\Bungabunga\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->G:\Bungabunga\app\src\main\AndroidManifest.xml:5:5-29:19
+12        android:allowBackup="true"
+12-->G:\Bungabunga\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.2.0] C:\Users\SMKI\.gradle\caches\transforms-2\files-2.1\0b96859a3cdf2530aa3d77dcfaeaf2fb\core-1.2.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->G:\Bungabunga\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->G:\Bungabunga\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->G:\Bungabunga\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->G:\Bungabunga\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->G:\Bungabunga\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="id.neharosma.bunga_bunga.TulipActivity" />
+21-->G:\Bungabunga\app\src\main\AndroidManifest.xml:12:9-60
+21-->G:\Bungabunga\app\src\main\AndroidManifest.xml:12:19-48
+22        <activity android:name="id.neharosma.bunga_bunga.TerataiActivity" />
+22-->G:\Bungabunga\app\src\main\AndroidManifest.xml:13:9-53
+22-->G:\Bungabunga\app\src\main\AndroidManifest.xml:13:19-50
+23        <activity android:name="id.neharosma.bunga_bunga.MawarActivity" />
+23-->G:\Bungabunga\app\src\main\AndroidManifest.xml:14:9-51
+23-->G:\Bungabunga\app\src\main\AndroidManifest.xml:14:19-48
+24        <activity android:name="id.neharosma.bunga_bunga.IrisActivity" />
+24-->G:\Bungabunga\app\src\main\AndroidManifest.xml:15:9-50
+24-->G:\Bungabunga\app\src\main\AndroidManifest.xml:15:19-47
+25        <activity android:name="id.neharosma.bunga_bunga.AnggrekActivity" />
+25-->G:\Bungabunga\app\src\main\AndroidManifest.xml:16:9-53
+25-->G:\Bungabunga\app\src\main\AndroidManifest.xml:16:19-50
+26        <activity android:name="id.neharosma.bunga_bunga.PentasActivity" />
+26-->G:\Bungabunga\app\src\main\AndroidManifest.xml:17:9-52
+26-->G:\Bungabunga\app\src\main\AndroidManifest.xml:17:19-49
+27        <activity android:name="id.neharosma.bunga_bunga.BugenvilActivity" />
+27-->G:\Bungabunga\app\src\main\AndroidManifest.xml:18:9-54
+27-->G:\Bungabunga\app\src\main\AndroidManifest.xml:18:19-51
+28        <activity android:name="id.neharosma.bunga_bunga.KembangSepatuActivity" />
+28-->G:\Bungabunga\app\src\main\AndroidManifest.xml:19:9-59
+28-->G:\Bungabunga\app\src\main\AndroidManifest.xml:19:19-56
+29        <activity android:name="id.neharosma.bunga_bunga.PetuniaActivity" />
+29-->G:\Bungabunga\app\src\main\AndroidManifest.xml:20:9-53
+29-->G:\Bungabunga\app\src\main\AndroidManifest.xml:20:19-50
+30        <activity android:name="id.neharosma.bunga_bunga.MelatiActivity" />
+30-->G:\Bungabunga\app\src\main\AndroidManifest.xml:21:9-52
+30-->G:\Bungabunga\app\src\main\AndroidManifest.xml:21:19-49
+31        <activity android:name="id.neharosma.bunga_bunga.MainActivity" >
+31-->G:\Bungabunga\app\src\main\AndroidManifest.xml:22:9-28:20
+31-->G:\Bungabunga\app\src\main\AndroidManifest.xml:22:19-47
+32            <intent-filter>
+32-->G:\Bungabunga\app\src\main\AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->G:\Bungabunga\app\src\main\AndroidManifest.xml:24:17-69
+33-->G:\Bungabunga\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->G:\Bungabunga\app\src\main\AndroidManifest.xml:26:17-77
+35-->G:\Bungabunga\app\src\main\AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>

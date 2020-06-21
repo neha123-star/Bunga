@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/teratai"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/img_teratai"
+            android:layout_width="match_parent"
+            android:layout_height="298dp"
+            android:layout_gravity="center"
+            android:src="@drawable/teratai" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arti warna bunga teratai"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga Teratai Putih dan Bunga Teratai Merah Muda memiliki makna kemurnian dan pengabdian. Bunga Teratai Ungu, Merah dan Biru memiliki makna Rohani, Pencerahan, dan Kelahiran. Bunga Teratai Hijau adalah bunga yang sangat Indah bagi siapapun yang ingin mencoba untuk mendapatkan kebiasaan hidup yang lebih baik."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis bunga teratai"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga Teratai Mesir, Bunga Teratai Mesir memiliki nama ilmiah Nymphaea caerula. Jenis teratai ini memiliki warna Biru atau Ungu pada kelopaknya dan juga sebagai peran yang sangat penting dalam acara kerohanian."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga Teratai Jepang, Bunga Teratai ini dikenal sebagai bunga seroja di Cina, Bali di asia. Tanaman ini memiliki nama Ilmiah Nelumbo Nucifera. Teratai ini sering digunakan sebagai tempat Budha dan juga Dewa Hindu."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga Teratai Amerika, Bunga Teratai ini memiliki warna kuning yang sangat cerah yang asli dari Amerika Utara. Bunga ini sering digunakan oleh Suku-suku pribumi di Amerika sebagai tanaman pangan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunga Mawar Merah: cinta, keberanian, penghargaan"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunga Mawar Kuning: kegembiraan, kebahagiaan, kebebasan"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunga Mawar Pink/peach: terima kasih, syukur, kekaguman, penghargaan dan simpati."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunga Mawar  Putih: penghormatan, kesucian hati, kerahasiaan, pertunangan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Bunga Mawar Merah dan Putih: kebersamaan"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bunga Mawar Hitam: dukacita"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khasiat bunga Mawar."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dibalik keelokan warna bunga mawar, ternyata juga terkandung khasiat sebagai obat alami. Bilamana anda sempat pergi jalan jalan ke Bangkok, akan anda jumpai makanan yang terbuat dari bunga mawar. Banyak restoran di bangkok yang menyuguhkan menu andalan dari bahan bunga ini. Bunga ini aman dikonsumsi dan memiliki beberapa khasiat. Minyak atsiri nya mengandung geraniol dan limonene yang berfungsi sebagai antiseptik, pembunuh jamur candida albican penyebab keputihan dan menambah daya tahan tubuh. Harum aroma bunga mawar juga sering digunakan sebagai aromaterapi yang bersifat menenangkan juga meningkatkan mood. Daun kelopak bunganya yang kering juga dapat untuk mengharumkan teh. Caranya sangat mudah, anda campurkan sedikit kelopak bunga kering bersama teh dan rebuskan air kemudian saring, anda akan menikmati segarnya teh sambil menghirup aroma bunga mawar yang dapat meningkatkan mood."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

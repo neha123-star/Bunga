@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/petunia"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/img_petunia"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:src="@drawable/petunia2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arti Bunga Petunia"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Petunia (Petunia x hybrida) adalah anggota dari keluarga Solanaceae (keluarga tomat, kentang, kecubung, dan banyak spesies lainnya). Meskipun beberapa petunia, secara umum, bisa menjadi menahun, hibrida yang diproduksi dan dijual saat ini sebagian besar adalah tanaman tahunan."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kita dapat menemukan petunia dalam berbagai jenis, ketinggian, dan warna, tergantung pada varietas tanaman. Misalnya, petunia bermekaran tunggal atau ganda, pola warna tunggal, linier atau cipratan. Di antara variasi warna yang luas, kita dapat melihat warna merah, putih, merah muda, ungu, biru muda, kuning dan hampir semua warna yang ada. Kelopak petunia berwarna hitam adalah sesuatu yang pantas dilihat!"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alasan ada begitu banyak keanekaragaman dalam petunia adalah bahwa selama bertahun-tahun, para ilmuwan telah mengembangkan berbagai metode, seperti infeksi virus, yang menyebabkan bermacam warna pada kelopak-kelopaknya. Dengan menggunakan metode-metode tersebut, hampir setiap produsen dapat membuat kombinasi warna secara praktis."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Petunia adalah bunga yang terkenal karena bunga berbentuk terompet dengan banyak warna yang indah. Dedaunannya berbulu dan bercabang. Tanaman ini lebih suka daerah yang cerah untuk tumbuh. Inilah sebabnya mengapa petunia sangat terkenal di Amerika Serikat dan semua negara Mediterania. Mekarnya berlangsung dari musim semi hingga musim gugur dan bunganya adalah bunga yang paling dikenal di seluruh dunia."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beberapa spesies Bunga Petunia"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beberapa spesies yang paling terkenal adalah Petunia grandiflora, Petunia milliflora dan Petunia multiflora."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Petunia grandiflora, membawa bunga terbesar dari semuanya dan dapat mencapai ketinggian hingga 40cm (16 inci). Namun, kita juga dapat menemukan varietas gantung dalam kategori ini. Secara umum, bunga bergelombangnya yang mengesankan membutuhkan perlindungan dari hujan dan angin."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Petunia milliflora membawa bunga terkecil dari semuanya. Petunia milliflora tidak tumbuh lebih dari 25cm (10 inci) tingginya. Tumbuhan dari kategori ini- tidak seperti grandiflora– kurang membutuhkan perlindungan dari hujan. Di sini kita juga dapat menemukan jenis gantung serta varietas yang ditanam secara horizontal, cocok untuk ditanam di sepanjang pagar."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Petunia multiflora, memberi bunga lebih kecil dari Petunia grandiflora, tetapi lebih besar dari Petunia milliflora."
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
